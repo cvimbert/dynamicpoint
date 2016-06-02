@@ -10,7 +10,7 @@
             return factory(_);
         });
     } else {
-        root.RecursiveTreeManager = factory(root._);
+        root.DynamicPoint = factory(root._);
     }
 })(function(_) {
     /**
