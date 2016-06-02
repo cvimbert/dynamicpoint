@@ -24,9 +24,9 @@
         var changeCallback;
 
         // ajout des valeurs par défaut aux attributs de base si la clé n'existe pas
-        _.each(config.props, function(value, key) {
+        /*_.each(config.props, function(value, key) {
             if (attributes[key] === undefined) attributes[key] = value;
-        });
+        });*/
 
         this.set = function(key, value, sendCallback) {
             attributes[key] = value;
