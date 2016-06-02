@@ -31,7 +31,7 @@
         this.set = function(key, value, sendCallback) {
             attributes[key] = value;
 
-            if (sendCallback !== false) changeCallback({
+            if (changeCallback && sendCallback !== false) changeCallback({
                 key: key,
                 value: value
             });
