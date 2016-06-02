@@ -1,0 +1,20 @@
+{
+  "name": "dynamicpoint",
+  "homepage": "https://github.com/cvimbert/dynamicpoint",
+  "authors": [
+    "Christophe Vimbert <c.vimbert@outlook.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
